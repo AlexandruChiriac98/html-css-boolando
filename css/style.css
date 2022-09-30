@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+    width: 250px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -22,6 +26,7 @@ a{
 
 .row{
     display:flex;
+    flex-direction: row;
 }
 
 .barra-nav{
@@ -34,6 +39,75 @@ a{
     width: 200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.contenitore-card{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.cuore{
+    width: 25px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 225px;
+}
+
+.sconto{
+    background-color: red;
+    width: 50px;
+    font-size: small;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-right: 4px;
+}
+
+.marca{
+    position: relative;
+    font-size: xx-small;
+    bottom: 23px;
+}
+
+.prezzo{
+    font-size: 12px;
+}
+
+.prezzo-scont{
+    color: red;
+    font-weight: bold;
+    position: relative;
+    bottom: 23px;
+}
+
+.prezzo-or{
+    text-decoration: line-through;
+    position: relative;
+    bottom: 23px;
+}
+
+.nome{
+    font-size: small;
+    position: relative;
+    bottom: 23px;
+}
+
+.posi{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+}
+
+.sos{
+    background-color: green;
+    width: 80px;
+    padding: 5px;
+    font-size: small;
+    color: white;
+    text-align: center;
 }
 
 .barra-fot{
