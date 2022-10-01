@@ -21,6 +21,14 @@ main{
     padding-bottom: 2rem;
 }
 
+.r{
+    text-align: end;
+}
+
+.c{
+    text-align: center;
+}
+
 .logo{
     width: 100px;
 }
@@ -54,7 +62,6 @@ main{
     margin: 0 auto;
     position: relative;
 }
-
 
 .hover{
     opacity: 0;
